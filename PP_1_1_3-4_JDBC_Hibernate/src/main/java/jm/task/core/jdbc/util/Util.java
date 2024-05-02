@@ -1,6 +1,5 @@
 package jm.task.core.jdbc.util;
 
-import com.sun.xml.fastinfoset.sax.Properties;
 import jm.task.core.jdbc.model.User;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
@@ -11,8 +10,6 @@ import org.hibernate.service.ServiceRegistry;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
-import static java.lang.System.setProperty;
 
 public class Util {
 

@@ -11,12 +11,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserDaoJDBCImpl implements UserDao {
-    private final Util util;
+
     private Connection connection;
 
     public UserDaoJDBCImpl() {
-        this.util = new Util();
-        this.connection = util.getConnection();
+        this.connection = Util.getConnection();
     }
 
 
